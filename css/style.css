@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+}
+/*zonadebug*/
+/*css*/
+
+.clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+span {
+    display: block;
+    width: 80%;
+    margin:5px 0px;
+    
+}
+
+.container {
+    width: 90%;
+    margin: 0px auto;
+    padding-top: 20px;
+
+}
+
+h1,
+p {
+    padding: 10px 0px;
+    text-align: center;
+}
+
+h1 {
+    color: #E42A6D;
+}
+
+.col {
+    color: white;
+    background-color: white;
+    height: 80px;
+    width: calc(100% / 3 );
+    float: left;
+    background-color: #0F0E17;
+
+}
+
+img {
+    height: 100%;
+    float: left;
+}
+
+.nomeCandidato {
+    font-weight: bold;
+}
+
+.professione,
+a {
+    font-size: 11px;
+}
+
+a{
+    text-decoration: none;
+    color: #70CBF0;
+}
