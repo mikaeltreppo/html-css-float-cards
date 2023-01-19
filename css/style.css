@@ -11,7 +11,8 @@
     clear: both;
 }
 
-span, a{
+span,
+a {
     height: calc(100% / 3);
     display: block;
     padding-top: 5px;
@@ -30,7 +31,7 @@ p {
     width: 100%;
 }
 
-p{
+p {
     font-size: 16px;
 }
 
@@ -45,6 +46,7 @@ h1 {
     float: left;
     margin-top: 0px;
     background-color: transparent;
+    margin-bottom: 30px;
 }
 
 img {
@@ -56,7 +58,7 @@ img {
 .nomeCandidato {
     font-size: 16px;
     font-weight: bold;
-  
+
 }
 
 .professione,
@@ -70,11 +72,11 @@ a {
     padding-top: 0;
 }
 
-.colonne{
+.colonne {
     margin-top: 20px;
 }
 
-.card{
+.card {
     background-color: #0F0E17;
     height: 75px;
     width: 90%;
