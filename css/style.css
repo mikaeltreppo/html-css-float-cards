@@ -82,3 +82,9 @@ a {
     width: 90%;
     margin: auto;
 }
+
+.card:hover {
+    background-color: transparent;
+    background-size: contain;
+    color:black;
+}
