@@ -5,9 +5,6 @@
     font-family: 'Fredoka', sans-serif;
 }
 
-/*zonadebug*/
-/*css*/
-
 .clearfix::after {
     display: table;
     content: "";
@@ -21,7 +18,7 @@ span {
 }
 
 .container {
-    width: 90%;
+    width: 1000px;
     margin: 0px auto;
     padding-top: 20px;
 }
@@ -39,13 +36,15 @@ h1 {
 .col {
     color: white;
     background-color: white;
-    width: calc(100% / 3 );
+    width: calc(100% / 3);
     float: left;
-    background-color: #0F0E17;
+    background-color: #0F0E17; 
+    margin-top: 20px;
+    background-color: transparent;
 }
 
 img {
-    height: 70px;
+    height: 63px;
     float: left;
     margin-right: 10px;
 }
@@ -67,4 +66,11 @@ a {
 
 .colonne{
     margin-top: 20px;
+}
+
+.card{
+    background-color: #0F0E17;
+    height: 100%;
+    width: 90%;
+    margin: auto;
 }
